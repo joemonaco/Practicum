@@ -8,6 +8,8 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
 
+# need to "pip install selenium"
+
 url = 'http://cloud.rapsodo.com/2.1/#/auth/login'
 result = requests.get(url)
 c = result.content
@@ -25,14 +27,11 @@ url = 'http://cloud.rapsodo.com/2.1/#/team-stats'
 
 driver.get(url)
 time.sleep(10)
-# driver.implicitly_wait(30)
 
-# soup = BS(c)
 page_text = driver.page_source.encode('utf-8').decode('ascii', 'ignore')
 soup = BS(page_text, 'html.parser')
-print(soup)
 
-# soup.
+# Write the html file
 htmlFile = open('index.html', 'w')
 htmlFile.write(soup.prettify())
 htmlFile.close()
