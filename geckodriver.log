@@ -1,0 +1,295 @@
+1571778517739	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/1g/f016qq2n2zs25s5kzyqyktx80000gn/T/rust_mozprofile.rO01lB4PkExL"
+1571778518633	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571778518633	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571778518633	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571778518634	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571778520683	Marionette	INFO	Listening on port 54787
+1571778520720	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: chrome://marionette/content/error.js, line 175: Error: No such content frame; perhaps the listener was not registered?
+JavaScript error: chrome://marionette/content/error.js, line 175: Error: No such content frame; perhaps the listener was not registered?
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: LoginHelper: "Couldn't parse origin for" "" ({})
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: LoginHelper: "Couldn't parse origin for" "about:logins" ({})
+JavaScript error: resource://gre/modules/LoginAutoCompleteResult.jsm, line 427: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIURI.host]
+console.warn: LoginHelper: "Couldn't parse origin for" "about:logins" ({})
+JavaScript error: resource://gre/modules/LoginAutoCompleteResult.jsm, line 427: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIURI.host]
+console.warn: LoginHelper: "Couldn't parse origin for" "about:logins" ({})
+JavaScript error: resource://gre/modules/LoginAutoCompleteResult.jsm, line 427: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIURI.host]
+console.warn: LoginHelper: "Couldn't parse origin for" "about:logins" ({})
+JavaScript error: resource://gre/modules/LoginAutoCompleteResult.jsm, line 427: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIURI.host]
+console.warn: LoginHelper: "Couldn't parse origin for" "about:logins" ({})
+JavaScript error: resource://gre/modules/LoginAutoCompleteResult.jsm, line 427: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIURI.host]
+console.warn: LoginHelper: "Couldn't parse origin for" "about:logins" ({})
+JavaScript error: resource://gre/modules/LoginAutoCompleteResult.jsm, line 427: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIURI.host]
+console.warn: LoginHelper: "Couldn't parse origin for" "about:logins" ({})
+JavaScript error: resource://gre/modules/LoginAutoCompleteResult.jsm, line 427: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIURI.host]
+console.warn: LoginHelper: "Couldn't parse origin for" "about:logins" ({})
+JavaScript error: resource://gre/modules/LoginAutoCompleteResult.jsm, line 427: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIURI.host]
+console.warn: LoginHelper: "Couldn't parse origin for" "about:logins" ({})
+JavaScript error: resource://gre/modules/LoginAutoCompleteResult.jsm, line 427: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIURI.host]
+console.warn: LoginHelper: "Couldn't parse origin for" "about:logins" ({})
+JavaScript error: resource://gre/modules/LoginAutoCompleteResult.jsm, line 427: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIURI.host]
+console.warn: LoginHelper: "Couldn't parse origin for" "about:logins" ({})
+JavaScript error: resource://gre/modules/LoginAutoCompleteResult.jsm, line 427: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIURI.host]
+1571778681178	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/1g/f016qq2n2zs25s5kzyqyktx80000gn/T/rust_mozprofile.zQ2M2Hh38dJD"
+1571778681908	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571778681909	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571778681909	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571778681909	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571778683797	Marionette	INFO	Listening on port 55615
+1571778683819	Marionette	WARN	TLS certificate errors will be ignored for this session
+1571778825845	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/1g/f016qq2n2zs25s5kzyqyktx80000gn/T/rust_mozprofile.ThNjmt2MPz4j"
+1571778826471	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571778826471	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571778826471	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571778826471	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571778828308	Marionette	INFO	Listening on port 56380
+1571778828413	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: http://cloud.rapsodo.com/assets/js/common.min.js, line 2: Error: Script terminated by timeout at:
+fix@http://cloud.rapsodo.com/assets/js/common.min.js:2:1
+n@http://cloud.rapsodo.com/assets/js/common.min.js:2:18409
+
+1571778901834	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/1g/f016qq2n2zs25s5kzyqyktx80000gn/T/rust_mozprofile.YS89FXDHbTzR"
+1571778902452	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571778902452	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571778902452	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571778902452	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571778904204	Marionette	INFO	Listening on port 56804
+1571778904299	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://cloud.rapsodo.com"
+console.warn: LoginManager: "searchLogins: `formActionOrigin` or `httpRealm` is recommended"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: LoginHelper: "Couldn't parse origin for" "" ({})
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: AboutLoginsParent: "AboutLogins:OpenSite: expected to find a login for guid: undefined but found 0"
+console.warn: AboutLoginsParent: "AboutLogins:OpenSite: expected to find a login for guid: undefined but found 0"
+console.warn: LoginHelper: "Couldn't parse origin for" "about:logins?filter=cloud.rapsodo.com" ({})
+JavaScript error: resource://gre/modules/LoginAutoCompleteResult.jsm, line 427: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIURI.host]
+console.warn: LoginHelper: "Couldn't parse origin for" "about:logins?filter=cloud.rapsodo.com" ({})
+JavaScript error: resource://gre/modules/LoginAutoCompleteResult.jsm, line 427: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIURI.host]
+console.warn: LoginHelper: "Couldn't parse origin for" "about:logins?filter=cloud.rapsodo.com" ({})
+JavaScript error: resource://gre/modules/LoginAutoCompleteResult.jsm, line 427: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIURI.host]
+console.warn: LoginHelper: "Couldn't parse origin for" "about:logins?filter=cloud.rapsodo.com" ({})
+JavaScript error: resource://gre/modules/LoginAutoCompleteResult.jsm, line 427: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIURI.host]
+console.warn: LoginHelper: "Couldn't parse origin for" "about:logins?filter=cloud.rapsodo.com" ({})
+JavaScript error: resource://gre/modules/LoginAutoCompleteResult.jsm, line 427: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIURI.host]
+console.warn: LoginHelper: "Couldn't parse origin for" "about:logins?filter=cloud.rapsodo.com" ({})
+JavaScript error: resource://gre/modules/LoginAutoCompleteResult.jsm, line 427: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIURI.host]
+console.warn: LoginHelper: "Couldn't parse origin for" "about:logins?filter=cloud.rapsodo.com" ({})
+JavaScript error: resource://gre/modules/LoginAutoCompleteResult.jsm, line 427: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIURI.host]
+console.warn: LoginHelper: "Couldn't parse origin for" "about:logins?filter=cloud.rapsodo.com" ({})
+JavaScript error: resource://gre/modules/LoginAutoCompleteResult.jsm, line 427: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIURI.host]
+console.warn: LoginHelper: "Couldn't parse origin for" "about:logins?filter=cloud.rapsodo.com" ({})
+JavaScript error: resource://gre/modules/LoginAutoCompleteResult.jsm, line 427: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIURI.host]
+console.warn: LoginHelper: "Couldn't parse origin for" "about:logins?filter=cloud.rapsodo.com" ({})
+JavaScript error: resource://gre/modules/LoginAutoCompleteResult.jsm, line 427: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIURI.host]
+console.warn: LoginHelper: "Couldn't parse origin for" "about:logins?filter=cloud.rapsodo.com" ({})
+JavaScript error: resource://gre/modules/LoginAutoCompleteResult.jsm, line 427: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIURI.host]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cloud.rapsodo.com"
+console.warn: LoginManager: "searchLogins: `formActionOrigin` or `httpRealm` is recommended"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://cloud.rapsodo.com"
+console.warn: LoginManager: "searchLogins: `formActionOrigin` or `httpRealm` is recommended"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1571778970880	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/1g/f016qq2n2zs25s5kzyqyktx80000gn/T/rust_mozprofile.anwVDnN7GNtc"
+1571778971430	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571778971430	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571778971431	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571778971431	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571778973236	Marionette	INFO	Listening on port 57195
+1571778973340	Marionette	WARN	TLS certificate errors will be ignored for this session
+1571778975110	Marionette	INFO	Stopped listening on port 54787
+1571778978036	Marionette	INFO	Stopped listening on port 55615
+1571778979996	Marionette	INFO	Stopped listening on port 56380
+1571778982081	Marionette	INFO	Stopped listening on port 56804
+1571779184866	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/1g/f016qq2n2zs25s5kzyqyktx80000gn/T/rust_mozprofile.K5ViZgjh3SPO"
+1571779185388	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571779185388	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571779185388	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571779185388	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571779186974	Marionette	INFO	Listening on port 58249
+1571779187016	Marionette	WARN	TLS certificate errors will be ignored for this session
+1571779303908	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/1g/f016qq2n2zs25s5kzyqyktx80000gn/T/rust_mozprofile.u4CXm4dPP82i"
+1571779304474	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571779304474	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571779304474	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571779304474	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571779306102	Marionette	INFO	Listening on port 58890
+1571779306157	Marionette	WARN	TLS certificate errors will be ignored for this session
+1571779344701	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/1g/f016qq2n2zs25s5kzyqyktx80000gn/T/rust_mozprofile.WqAfzGmKpogw"
+1571779345166	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571779345166	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571779345166	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571779345166	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571779346844	Marionette	INFO	Listening on port 59134
+1571779346945	Marionette	WARN	TLS certificate errors will be ignored for this session
+1571779382837	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/1g/f016qq2n2zs25s5kzyqyktx80000gn/T/rust_mozprofile.msR3RARHbdSb"
+1571779383408	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571779383409	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571779383409	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571779383409	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571779385109	Marionette	INFO	Listening on port 59370
+1571779385188	Marionette	WARN	TLS certificate errors will be ignored for this session
+1571779428096	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/1g/f016qq2n2zs25s5kzyqyktx80000gn/T/rust_mozprofile.6ST5JqNpIwBA"
+1571779428675	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571779428675	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571779428675	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571779428675	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571779429548	Marionette	INFO	Stopped listening on port 57195
+1571779430502	Marionette	INFO	Listening on port 59640
+1571779430555	Marionette	WARN	TLS certificate errors will be ignored for this session
+1571779431118	Marionette	INFO	Stopped listening on port 58249
+1571779433135	Marionette	INFO	Stopped listening on port 58890
+1571779435664	Marionette	INFO	Stopped listening on port 59134
+1571779438121	Marionette	INFO	Stopped listening on port 59370
+1571779480010	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/1g/f016qq2n2zs25s5kzyqyktx80000gn/T/rust_mozprofile.SslvXt60H5S7"
+1571779480492	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571779480493	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571779480493	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571779480493	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571779482186	Marionette	INFO	Listening on port 59934
+1571779482262	Marionette	WARN	TLS certificate errors will be ignored for this session
+1571779482683	Marionette	INFO	Stopped listening on port 59640
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+1571779688978	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/1g/f016qq2n2zs25s5kzyqyktx80000gn/T/rust_mozprofile.6M4J0VLGmXS7"
+1571779689472	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571779689472	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571779689472	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571779689472	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571779691027	Marionette	INFO	Listening on port 60991
+1571779691034	Marionette	WARN	TLS certificate errors will be ignored for this session
+1571779923837	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/1g/f016qq2n2zs25s5kzyqyktx80000gn/T/rust_mozprofile.LxKdjZrZGmjL"
+1571779924401	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571779924401	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571779924401	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571779924402	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571779926151	Marionette	INFO	Listening on port 62133
+1571779926193	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+console.error: (new Error("Transaction canceled due to a closed connection.", "resource://gre/modules/Sqlite.jsm", 613))
+console.error: (new Error("Transaction canceled due to a closed connection.", "resource://gre/modules/Sqlite.jsm", 613))
+1571779927125	Marionette	INFO	Stopped listening on port 59934
+1571779928504	Marionette	INFO	Stopped listening on port 60991
+1571779968074	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/1g/f016qq2n2zs25s5kzyqyktx80000gn/T/rust_mozprofile.YRINirDFGEne"
+1571779968549	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571779968549	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571779968549	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571779968549	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571779970186	Marionette	INFO	Listening on port 62390
+1571779970214	Marionette	WARN	TLS certificate errors will be ignored for this session
+1571779970557	Marionette	INFO	Stopped listening on port 62133
+1571780042957	Marionette	INFO	Stopped listening on port 62390
+1571780047737	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/1g/f016qq2n2zs25s5kzyqyktx80000gn/T/rust_mozprofile.zrdcEi1mdFmI"
+1571780048214	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571780048214	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571780048214	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571780048214	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571780049760	Marionette	INFO	Listening on port 62818
+1571780049785	Marionette	WARN	TLS certificate errors will be ignored for this session
+1571780230640	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/1g/f016qq2n2zs25s5kzyqyktx80000gn/T/rust_mozprofile.zv6kjknRjBh7"
+1571780231141	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571780231141	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571780231142	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571780231142	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571780232692	Marionette	INFO	Listening on port 63683
+1571780232780	Marionette	WARN	TLS certificate errors will be ignored for this session
+1571780236266	Marionette	INFO	Stopped listening on port 62818
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 81: Error: Connection closed, pending request to server0.conn0.child1/highlighter24, type showBoxModel failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:176:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:49:19
+highlight@resource://devtools/shared/fronts/highlighters.js:77:16
+onShowBoxModelHighlighter@resource://devtools/client/inspector/boxmodel/box-model.js:409:32
+onHighlightMouseOver@resource://devtools/client/inspector/boxmodel/components/BoxModelMain.js:289:16
+invokeGuardedCallbackImpl@resource://devtools/client/shared/vendor/react-dom.js:74:10
+invokeGuardedCallback@resource://devtools/client/shared/vendor/react-dom.js:111:29
+invokeGuardedCallbackAndCatchFirstError@resource://devtools/client/shared/vendor/react-dom.js:125:25
+executeDispatch@resource://devtools/client/shared/vendor/react-dom.js:346:42
+executeDispatchesInOrder@resource://devtools/client/shared/vendor/react-dom.js:365:20
+executeDispatchesAndRelease@resource://devtools/client/shared/vendor/react-dom.js:462:29
+executeDispatchesAndReleaseTopLevel@resource://devtools/client/shared/vendor/react-dom.js:470:10
+forEachAccumulated@resource://devtools/client/shared/vendor/react-dom.js:442:9
+runEventsInBatch@resource://devtools/client/shared/vendor/react-dom.js:598:21
+runExtractedEventsInBatch@resource://devtools/client/shared/vendor/react-dom.js:606:19
+handleTopLevel@resource://devtools/client/shared/vendor/react-dom.js:4272:30
+batchedUpdates$1@resource://devtools/client/shared/vendor/react-dom.js:15752:12
+batchedUpdates@resource://devtools/client/shared/vendor/react-dom.js:1882:12
+dispatchEvent@resource://devtools/client/shared/vendor/react-dom.js:4351:19
+permitUnload@resource://gre/actors/BrowserElementParent.jsm:224:19
+permitUnload@chrome://global/content/elements/browser-custom-element.js:2035:43
+CanCloseWindow@chrome://browser/content/browser.js:8523:46
+canClose@chrome://browser/content/browser.js:6778:12
+
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 81: Error: Connection closed, pending request to server0.conn0.child1/highlighter24, type hideBoxModel failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:176:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:49:19
+unhighlight@resource://devtools/shared/fronts/highlighters.js:95:18
+onHideBoxModelHighlighter@resource://devtools/client/inspector/boxmodel/box-model.js:243:32
+invokeGuardedCallbackImpl@resource://devtools/client/shared/vendor/react-dom.js:74:10
+invokeGuardedCallback@resource://devtools/client/shared/vendor/react-dom.js:111:29
+invokeGuardedCallbackAndCatchFirstError@resource://devtools/client/shared/vendor/react-dom.js:125:25
+executeDispatch@resource://devtools/client/shared/vendor/react-dom.js:346:42
+executeDispatchesInOrder@resource://devtools/client/shared/vendor/react-dom.js:365:20
+executeDispatchesAndRelease@resource://devtools/client/shared/vendor/react-dom.js:462:29
+executeDispatchesAndReleaseTopLevel@resource://devtools/client/shared/vendor/react-dom.js:470:10
+forEachAccumulated@resource://devtools/client/shared/vendor/react-dom.js:442:9
+runEventsInBatch@resource://devtools/client/shared/vendor/react-dom.js:598:21
+runExtractedEventsInBatch@resource://devtools/client/shared/vendor/react-dom.js:606:19
+handleTopLevel@resource://devtools/client/shared/vendor/react-dom.js:4272:30
+batchedUpdates$1@resource://devtools/client/shared/vendor/react-dom.js:15752:12
+batchedUpdates@resource://devtools/client/shared/vendor/react-dom.js:1882:12
+dispatchEvent@resource://devtools/client/shared/vendor/react-dom.js:4351:19
+permitUnload@resource://gre/actors/BrowserElementParent.jsm:224:19
+permitUnload@chrome://global/content/elements/browser-custom-element.js:2035:43
+CanCloseWindow@chrome://browser/content/browser.js:8523:46
+canClose@chrome://browser/content/browser.js:6778:12
+
+1571780325533	Marionette	INFO	Stopped listening on port 63683
+1571780328732	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/1g/f016qq2n2zs25s5kzyqyktx80000gn/T/rust_mozprofile.XOmWfiNgHABp"
+1571780329242	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571780329242	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571780329242	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571780329243	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571780330872	Marionette	INFO	Listening on port 64174
+1571780330880	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f1dfeafbdef715a&origin=https%3A%2F%2Fwww.pythoncentral.io, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f1dfeafbdef715a&origin=https%3A%2F%2Fwww.pythoncentral.io, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f1dfeafbdef715a&origin=https%3A%2F%2Fwww.pythoncentral.io, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f1dfeafbdef715a&origin=https%3A%2F%2Fwww.pythoncentral.io, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f1dfeafbdef715a&origin=https%3A%2F%2Fwww.pythoncentral.io, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+1571780485650	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/1g/f016qq2n2zs25s5kzyqyktx80000gn/T/rust_mozprofile.qAAmU4BZjg3J"
+1571780486172	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571780486173	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571780486173	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571780486173	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571780487691	Marionette	INFO	Listening on port 65085
+1571780487796	Marionette	WARN	TLS certificate errors will be ignored for this session
+1571780574167	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/1g/f016qq2n2zs25s5kzyqyktx80000gn/T/rust_mozprofile.WvNMyIazkFWg"
+1571780574647	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571780574647	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571780574647	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571780574647	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571780576205	Marionette	INFO	Listening on port 65530
+1571780576224	Marionette	WARN	TLS certificate errors will be ignored for this session
