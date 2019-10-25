@@ -8,6 +8,7 @@ from selenium.webdriver.common.keys import Keys
 import time
 from datetime import datetime as DT
 import csv
+import pycurl
 
 
 url = 'http://cloud.rapsodo.com/2.1/#/auth/login'
@@ -44,18 +45,20 @@ allPitcherData = []
 for span in allPitchers:
     allPitcherData.append(str(span.get_text().strip()))
 
-# loop thr
+# loop through the allPictherData which is array of everything scraped in each index
+# and make a dict out of the data excluding "Starter"
 count = 0
+pitcherID = 0
 for pitcher in allPitcherData:
     if len(pitcher) > 3 and pitcher != 'Starter':
 
-        pitcherDict = {'name': allPitcherData[count], 'throws': allPitcherData[count+2], 'height': allPitcherData[count+3],
+        pitcherDict = {'idPitcher': pitcherID, 'name': allPitcherData[count], 'throws': allPitcherData[count+2], 'height': allPitcherData[count+3],
                        'weight': allPitcherData[count+4], 'age': allPitcherData[count+5]}
         pitcherData.append(pitcherDict)
 
     count = count + 1
 
-
+# print array of dictionaries
 print pitcherData
 
 

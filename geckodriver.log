@@ -1142,3 +1142,370 @@ bail@chrome://marionette/content/sync.js:237:64
 JavaScript warning: https://careers.icims.com/js/scripts.js?201908290000, line 5: unreachable code after return statement
 JavaScript warning: https://careers.icims.com/js/scripts.js?201908290000, line 5: unreachable code after return statement
 2019-10-24 19:58:46.221 firefox-bin[94264:2130580] -deltaZ is deprecated for NSEventTypeMagnify.  Please use -magnification.
+1571968403022	Marionette	INFO	Stopped listening on port 51593
+1572024280138	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/1g/f016qq2n2zs25s5kzyqyktx80000gn/T/rust_mozprofile.YR2HsXj0eOMy"
+1572024281294	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1572024281294	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1572024281295	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1572024281295	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1572024283080	Marionette	INFO	Listening on port 57109
+1572024283120	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 96418, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 728
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 96417, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 728
+Exiting due to channel error.
+Exiting due to channel error.
+1572024295291	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/1g/f016qq2n2zs25s5kzyqyktx80000gn/T/rust_mozprofile.hRhBU57dsgrU"
+1572024295781	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1572024295781	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1572024295781	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1572024295781	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1572024297341	Marionette	INFO	Listening on port 57189
+1572024297442	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.geeksforgeeks.org/wp-content/themes/iconic-one/js/gfg.min.js?ver=10.31, line 93: unreachable code after return statement
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript warning: https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101, line 1: Error: Script terminated by timeout at:
+uf/<@https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101:1:40307
+Pa@https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101:1:5529
+uf@https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101:1:40197
+yg@https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101:1:53773
+Lg@https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101:1:68804
+Mg.prototype.a@https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101:1:57464
+tg/<@https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101:1:51638
+x@https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101:1:4055
+tg@https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101:1:51611
+wh/<@https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101:1:68013
+x@https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101:1:4055
+wh@https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101:1:67983
+uh@https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101:1:64664
+qh.prototype.Ib@https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101:1:64324
+bf/a.a<@https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101:1:36266
+fe/</<@https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101:1:27617
+ce/<@https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101:1:27159
+Md/<@https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101:1:24451
+ce@https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101:1:27467
+fe/<@https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101:1:27590
+Md/<@https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101:1:24451
+Md/<@https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101:1:24495
+
+JavaScript error: https://jsonplaceholder.typicode.com/guide.html, line 217: TypeError: example is null
+JavaScript error: https://gum.criteo.com/syncframe?topUrl=www.poftut.com#{%22optout%22:{%22value%22:false,%22origin%22:0},%22uid%22:{%22origin%22:0},%22idfs%22:{%22origin%22:0},%22sid%22:{%22origin%22:0},%22origin%22:%22publishertag%22,%22version%22:75,%22lwid%22:{%22value%22:%22d3d9b4f1-f1cc-4cd4-8195-8bb9fef4e56a%22,%22origin%22:3},%22tld%22:%22poftut.com%22,%22bundle%22:{%22origin%22:0},%22topUrl%22:%22www.poftut.com%22,%22cw%22:true}, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://ads62.adtelligent.com/display/?adid=3ED04648D687AA79&cb=1685577032, line 1: TypeError: node.contentWindow is null
+JavaScript error: https://ads62.adtelligent.com/display/?adid=3ED04648D687AA79&cb=1685577032, line 1: TypeError: node.contentWindow is null
+JavaScript error: https://gum.criteo.com/syncframe?topUrl=www.poftut.com#{%22optout%22:{%22value%22:false,%22origin%22:0},%22uid%22:{%22origin%22:0},%22idfs%22:{%22origin%22:0},%22sid%22:{%22origin%22:0},%22origin%22:%22publishertag%22,%22version%22:75,%22lwid%22:{%22value%22:%22d3d9b4f1-f1cc-4cd4-8195-8bb9fef4e56a%22,%22origin%22:3},%22tld%22:%22poftut.com%22,%22bundle%22:{%22origin%22:0},%22topUrl%22:%22www.poftut.com%22,%22cw%22:true}, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://pixel.adsafeprotected.com/IASVideo.js?anId=926505&advId=228806&campId=701798&pubId=5291847&chanId=sxc&placementId=7196422&originalVast=https://ad.doubleclick.net/ddm/pfadx/N1114179.3652509AFFIPERF_USA_111/B23035796.254111391;sz=0x0;ord=1572026015;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml;dc_sdk_apis=[APIFRAMEWORKS];dc_omid_p=[OMIDPARTNER], line 92: TypeError: The expression cannot be converted to return the specified type.
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2_1, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2_1, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2_1, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2_1, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2_1, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2_1, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2_1, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2_1, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2_1, line 5: unreachable code after return statement
+JavaScript error: https://static-media-prod-cdn.itsre-sumo.mozilla.net/static/build/common-min.5594359fa3da.js, line 10: Error: Error retrieving geoip data
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2_1, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2_1, line 5: unreachable code after return statement
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2_1, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2_1, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2_1, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2_1, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2_1, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2_1, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2_1, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2_1, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2_1, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2_1, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2_1, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2_1, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2_1, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2_1, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2_1, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2_1, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2_1, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2_1, line 5: unreachable code after return statement
+JavaScript error: https://vpaid.springserve.com/production/vpaid_21d25e16.js, line 5: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://vpaid.springserve.com/production/vpaid_21d25e16.js, line 5: NS_ERROR_NOT_INITIALIZED: 
+1572026153310	Marionette	ERROR	[50] No reply from Marionette:Register
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2_1, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2_1, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2_1, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2_1, line 5: unreachable code after return statement
+JavaScript error: resource://gre/actors/BrowserElementParent.jsm, line 81: TypeError: browser is null
+JavaScript error: , line 0: NS_ERROR_UNEXPECTED: 
+1572026156330	Marionette	ERROR	[54] No reply from Marionette:Register
+JavaScript error: https://tag.idsync.analytics.yahoo.com/sp-frame.js, line 2: SecurityError: The operation is insecure.
+JavaScript error: https://cdn.doubleverify.com/dv-measurements289.js, line 56: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2_1, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2_1, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2_1, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2_1, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2_1, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2_1, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2_1, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2_1, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2_1, line 5: unreachable code after return statement
+1572026189137	Marionette	ERROR	[60] No reply from Marionette:Register
+JavaScript error: resource://gre/actors/BrowserElementParent.jsm, line 81: TypeError: browser is null
+JavaScript error: , line 0: NS_ERROR_UNEXPECTED: 
+1572026197757	Marionette	ERROR	[64] No reply from Marionette:Register
+JavaScript error: https://vd.vidoplay.com/v2vjs/sas/20191006_9a0a86783aae29f2a4ac44f8a764c137a52db01d/wbk/v2v_e_c_bundle.js, line 1: NS_ERROR_NOT_INITIALIZED: 
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2_1, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2_1, line 5: unreachable code after return statement
+JavaScript error: https://tag.idsync.analytics.yahoo.com/sp-frame.js, line 2: SecurityError: The operation is insecure.
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2_1, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2_1, line 5: unreachable code after return statement
+1572026267261	Marionette	ERROR	[66] No reply from Marionette:Register
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2_1, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2_1, line 5: unreachable code after return statement
+1572026322644	Marionette	ERROR	[72] No reply from Marionette:Register
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2_1, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2_1, line 5: unreachable code after return statement
+1572026327575	Marionette	ERROR	[74] No reply from Marionette:Register
+JavaScript error: https://vpaid.springserve.com/production/vpaid_21d25e16.js, line 5: NS_ERROR_NOT_INITIALIZED: 
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2_1, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2_1, line 5: unreachable code after return statement
+1572026344020	Marionette	ERROR	[78] No reply from Marionette:Register
+JavaScript error: resource://gre/actors/BrowserElementParent.jsm, line 81: TypeError: browser is null
+JavaScript error: , line 0: NS_ERROR_UNEXPECTED: 
+1572026346746	Marionette	ERROR	[82] No reply from Marionette:Register
+JavaScript error: https://cdn.doubleverify.com/dv-measurements289.js, line 56: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://cdn.doubleverify.com/dv-measurements289.js, line 56: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript error: https://tag.idsync.analytics.yahoo.com/sp-frame.js, line 2: SecurityError: The operation is insecure.
+JavaScript error: https://ad.lkqd.net/vpaid/vpaid.js?fusion=1.0, line 1: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://tag.idsync.analytics.yahoo.com/sp-frame.js, line 2: SecurityError: The operation is insecure.
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://pixel.adsafeprotected.com/IASVideo.js?anId=926505&advId=228806&campId=701798&pubId=5291847&chanId=sxc&placementId=7196422&originalVast=https://ad.doubleclick.net/ddm/pfadx/N1114179.3652509AFFIPERF_USA_111/B23035796.254111391;sz=0x0;ord=1572027739;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml;dc_sdk_apis=[APIFRAMEWORKS];dc_omid_p=[OMIDPARTNER], line 92: TypeError: The expression cannot be converted to return the specified type.
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript warning: https://tpc.googlesyndication.com/safeframe/1-0-36/html/container.html, line 24: unreachable code after return statement
+JavaScript warning: https://tpc.googlesyndication.com/safeframe/1-0-36/html/container.html line 2 > scriptElement, line 24: unreachable code after return statement
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f2b10825ec41232&origin=https%3A%2F%2Fwww.poftut.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f2b10825ec41232&origin=https%3A%2F%2Fwww.poftut.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f2b10825ec41232&origin=https%3A%2F%2Fwww.poftut.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://gum.criteo.com/syncframe?topUrl=www.poftut.com#{%22sid%22:{%22value%22:null,%22origin%22:0},%22uid%22:{%22value%22:null,%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22bundle%22:{%22value%22:null,%22origin%22:0},%22idfs%22:{%22value%22:null,%22origin%22:0},%22lwid%22:{%22value%22:%22d3d9b4f1-f1cc-4cd4-8195-8bb9fef4e56a%22,%22origin%22:3},%22tld%22:%22poftut.com%22,%22cw%22:true,%22origin%22:%22rtus%22,%22topUrl%22:%22www.poftut.com%22,%22rtusCallerId%22:158}, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript warning: https://tpc.googlesyndication.com/safeframe/1-0-36/html/container.html, line 24: unreachable code after return statement
+JavaScript warning: https://tpc.googlesyndication.com/safeframe/1-0-36/html/container.html line 2 > scriptElement, line 24: unreachable code after return statement
+JavaScript warning: https://tpc.googlesyndication.com/safeframe/1-0-36/html/container.html, line 24: unreachable code after return statement
+JavaScript warning: https://tpc.googlesyndication.com/safeframe/1-0-36/html/container.html line 2 > scriptElement, line 24: unreachable code after return statement
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript warning: https://tpc.googlesyndication.com/safeframe/1-0-36/html/container.html, line 24: unreachable code after return statement
+JavaScript warning: https://tpc.googlesyndication.com/safeframe/1-0-36/html/container.html line 2 > scriptElement, line 24: unreachable code after return statement
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
