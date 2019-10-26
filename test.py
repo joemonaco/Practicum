@@ -8,7 +8,6 @@ from selenium.webdriver.common.keys import Keys
 import time
 from datetime import datetime as DT
 import csv
-import pycurl
 
 
 url = 'http://cloud.rapsodo.com/2.1/#/auth/login'

@@ -1606,3 +1606,20 @@ JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delive
 JavaScript error: https://cdn.thisiswaldo.com/sites/all/modules/custom/ad_delivery/prebid.js, line 3: TypeError: t is undefined
 JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f2b10825ec41232&origin=https%3A%2F%2Fwww.poftut.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
 JavaScript warning: https://www.geeksforgeeks.org/wp-content/themes/iconic-one/js/gfg.min.js?ver=10.31, line 93: unreachable code after return statement
+1572040754517	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/1g/f016qq2n2zs25s5kzyqyktx80000gn/T/rust_mozprofile.x1vSVOGfV9FF"
+1572040755085	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1572040755085	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1572040755085	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1572040755085	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1572040756720	Marionette	INFO	Listening on port 56176
+1572040756752	Marionette	WARN	TLS certificate errors will be ignored for this session
+1572040809287	Marionette	INFO	Stopped listening on port 56176
+1572049981909	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/1g/f016qq2n2zs25s5kzyqyktx80000gn/T/rust_mozprofile.ONSBOFtih2Bv"
+1572049982733	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1572049982734	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1572049982734	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1572049982734	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1572049984317	Marionette	INFO	Listening on port 58475
+1572049984403	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/proxy.js, line 287: NS_ERROR_NOT_INITIALIZED
+1572049989641	Marionette	INFO	Stopped listening on port 58475
