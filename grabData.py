@@ -2,6 +2,8 @@ import requests
 import json
 import ast
 import time
+import csv
+
 
 authenticationHeaders = {
     'Accept': 'application/json, text/plain, */*',
@@ -33,22 +35,20 @@ pitchersHeaders = {
 pitchersRespone = requests.get(
     'https://cloud.rapsodo.com/v2/pitching/team-players', headers=pitchersHeaders)
 
-# print response.json()
+# write the ptchers.json file using the team-players response
+with open('pitchers.json', 'w') as output:
+    json.dump(pitchersRespone.json()['data'], output)
 
-# print str(response.json())
+pitchersJSON = pitchersRespone.json()['data']
 
-pitchersJSON = pitchersRespone.json()
+
+# loop
 playerIDs = []
-pitcherNames = []
-for pitcher in pitchersJSON['data']:
-    pitcherNames.append(str(pitcher['player_name']))
+for pitcher in pitchersJSON:
     playerIDs.append(str(pitcher['_id']))
 
-
-# print(json.dumps(pitchersJSON))
-
 startTime = time.time()
-count = 0
+
 for id in playerIDs:
 
     # GETS SESSIONS FOR specific player ID
@@ -70,21 +70,61 @@ for id in playerIDs:
     sessionDataResponse = requests.post(
         'https://cloud.rapsodo.com/v2/player/allsessions', headers=sessionHeaders, data=sessionPostData)
 
-    with open('sessions/' + pitcherNames[count] + '.json', 'w') as outfile:
-        json.dump(sessionDataResponse.json(), outfile)
+    # if pitcherNames[count].__contains__('Guest') == False:
+    with open('sessions/' + id + '.json', 'w') as outfile:
+        json.dump(sessionDataResponse.json()['data'], outfile)
 
-    count = count + 1
 endTime = time.time()
 
 elapsedTime = int(endTime - startTime)
 
 # took 66 seconds to execute and make all JSON
-# print("Time to make sessions JSONs: " + str(elapsedTime) + " seconds")
+print("Time to make sessions JSONs: " + str(elapsedTime) + " seconds")
 
-# print()
-# print()
-# print()
-# print()
-# print()
 
-# print(json.dumps(sessionDataResponse.json()))
+# create pitcherCSV
+with open('pitchers.json') as f:
+    pitcherData = json.load(f)
+
+# get the keys for the header from the pitchers.json
+keys = pitcherData[0].keys()
+
+# write the csv file using the pitcher data
+with open('pitcher.csv', 'w') as output_file:
+    dict_writer = csv.DictWriter(output_file, keys)
+    dict_writer.writeheader()
+    dict_writer.writerows(pitcherData)
+
+
+# create array of the dictionaries to hold each jsons dictionary
+sessionDicts = []
+
+# loop through IDs and grab each json and make dict of each and add to sessionDicts
+for id in playerIDs:
+    with open('sessions/' + id + '.json') as f:
+        playerSessionFull = json.load(f)
+
+        playerSession = []
+
+        for i in range(len(playerSessionFull)):
+
+            # check that its valid id
+            if len(playerSessionFull[i]['_id'].split('@')[0]) > 5:
+                playerSessionFull[i]['_id'] = playerSessionFull[i]['_id'].split('@')[
+                    0]
+
+                playerSession.append(playerSessionFull[i])
+
+        sessionDicts.append(playerSession)
+
+
+# get keys for the sessions
+keys = sessionDicts[0][0].keys()
+keys.append('memo')
+
+# write the csv for ALL sessions
+with open('sessions.csv', 'w') as output_file:
+    dict_writer = csv.DictWriter(output_file, keys)
+    dict_writer.writeheader()
+    for session in sessionDicts:
+        dict_writer.writerows(session)
