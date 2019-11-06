@@ -3,7 +3,7 @@ import json
 import ast
 import time
 import csv
-
+from datetime import datetime
 
 authenticationHeaders = {
     'Accept': 'application/json, text/plain, */*',
@@ -64,6 +64,8 @@ for id in playerIDs:
     }
 
     # begin date and end date, this grabs all
+
+    # beginDate will always be today
     sessionPostData = '{"beginDate":0,"endDate":9999999999999,"player_id":' + \
         id + ',"player_type":"1"}'
 
@@ -99,12 +101,17 @@ with open('pitcher.csv', 'w') as output_file:
 # create array of the dictionaries to hold each jsons dictionary
 sessionDicts = []
 
+sessionTableDicts = []
+
+count = 0
+
 # loop through IDs and grab each json and make dict of each and add to sessionDicts
 for id in playerIDs:
     with open('sessions/' + id + '.json') as f:
         playerSessionFull = json.load(f)
 
         playerSession = []
+        sessionDict = []
 
         for i in range(len(playerSessionFull)):
 
@@ -112,19 +119,36 @@ for id in playerIDs:
             if len(playerSessionFull[i]['_id'].split('@')[0]) > 5:
                 playerSessionFull[i]['_id'] = playerSessionFull[i]['_id'].split('@')[
                     0]
+                playerSessionFull[i]['session_pitch_id'] = count
+                playerSessionFull[i]['date'] = datetime.strptime(
+                    playerSessionFull[i]['date'], '%d %b %y')
 
+                sessionDict.append({'idSession': playerSessionFull[i]['session_pitch_id'],
+                                    'date': playerSessionFull[i]['date'], 'Pitcher__id': playerSessionFull[i]['_id']})
                 playerSession.append(playerSessionFull[i])
 
+                count = count + 1
+
         sessionDicts.append(playerSession)
+        sessionTableDicts.append(sessionDict)
 
 
 # get keys for the sessions
 keys = sessionDicts[0][0].keys()
 keys.append('memo')
+keys.append('session_pitch_id')
 
 # write the csv for ALL sessions
-with open('sessions.csv', 'w') as output_file:
+with open('sessions2.csv', 'w') as output_file:
     dict_writer = csv.DictWriter(output_file, keys)
     dict_writer.writeheader()
     for session in sessionDicts:
+        dict_writer.writerows(session)
+
+
+keys = sessionTableDicts[0][0].keys()
+with open('sessionTable.csv', 'w') as output_file:
+    dict_writer = csv.DictWriter(output_file, keys)
+    dict_writer.writeheader()
+    for session in sessionTableDicts:
         dict_writer.writerows(session)
