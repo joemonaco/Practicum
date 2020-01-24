@@ -10,24 +10,24 @@ from datetime import datetime as DT
 import csv
 
 
-url = 'http://cloud.rapsodo.com/2.1/#/auth/login'
-result = requests.get(url)
-c = result.content
+# url = 'http://cloud.rapsodo.com/2.1/#/auth/login'
+# result = requests.get(url)
+# c = result.content
 
-# SELENIUM
+# # SELENIUM
 driver = webdriver.Firefox()
 driver.implicitly_wait(30)
+# driver.get(url)
+
+# driver.find_element_by_id('username').send_keys('ccollazo@monmouth.edu')
+# driver.find_element_by_id('password').send_keys('mubaseball')
+# driver.find_element_by_class_name('auth-button').click()
+
+url = 'http://monmouth.edu'
+
 driver.get(url)
-
-driver.find_element_by_id('username').send_keys('ccollazo@monmouth.edu')
-driver.find_element_by_id('password').send_keys('mubaseball')
-driver.find_element_by_class_name('auth-button').click()
-
-url = 'http://cloud.rapsodo.com/2.1/#/team-stats'
-
-driver.get(url)
-driver.find_element_by_id('ngb-tab-2').click()
-time.sleep(10)
+# driver.find_element_by_id('ngb-tab-2').click()
+# time.sleep(10)
 
 # Get rid of all ascii characters
 page_text = driver.page_source.encode('utf-8').decode('ascii', 'ignore')
