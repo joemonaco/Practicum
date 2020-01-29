@@ -56,8 +56,8 @@ pitchersRespone = requests.get(
 # print(pitchersRespone)
 
 # write the ptchers.json file using the team-players response
-# with open('pitchersNEW.json', 'w') as output:
-#     json.dump(pitchersRespone.json()['data'], output)
+with open('pitchersNEW3.json', 'w') as output:
+    json.dump(pitchersRespone.json()['data'], output)
 
 pitchersJSON = pitchersRespone.json()['data']
 print(pitchersJSON)
@@ -110,6 +110,8 @@ with open('pitchersNEW3.json') as f:
 
 # get the keys for the header from the pitchers.json
 keys = pitcherData[0].keys()
+print(keys)
+keys = list(keys)
 keys.append('hitter_status')
 
 # write the csv file using the pitcher data
@@ -166,6 +168,7 @@ for id in playerIDs:
 
 # get keys for the sessions
 keys = sessionDicts[0][0].keys()
+keys = list(keys)
 keys.append('memo')
 # keys.append('session_pitch_id')
 
