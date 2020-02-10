@@ -12,22 +12,18 @@ mydb = mysql.connector.connect(
     port="3306",
     user="root",
     passwd="Monmouth2020",
-    database="mubaseball"
+    database="mubb"
 )
 
 mycursor = mydb.cursor()
 
-# sql = "INSERT INTO `Pitch Type` (pitch_type, Description) VALUES (%s, %s)"
-# val = (9, "test pitch")
-# mycursor.execute(sql, val)
-# mydb.commit()
-
-
-# sessionSQL = "INSERT INTO captured_data (session_pitch_id, releaseHeight, horizontalBreak, spinClockTiltHour, date, szx, szy, selected, verticalBreak, _hour, videoPointerID, speed, no, Pitch_Type_pitchType, _minute, spinConfidence, spinEfficiency, releaseSide, trueSpin, _month, _milisecond, strike, _day, _year, pitch_id, spin, launchAngle, _second, spinAxis, releaseExtension, rifleSpin, gyroDegree, mode, Pitcher_pitcher_id, spinClockTiltMinute, horizontalAngle, memo, sessionID) VALUES (%s, %s, %s, %s,%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
-# valSQL = (playerSessionFull[i]['session_pitch_id'], 123.4, 432.1, 111, '2019-09-27 00:00:00', 1.1, 2.2, 'sel', 3.3, 9, 'video', 69.0, 0, 0, 13, 5.5, 6.6, 7.7, 1000, 10, 9, 'Y', 15, 16, 35, 88, 8.8, 11, 'spin axes', 'relEx', 9.9, 45.0, 0, 101375, 77, 12.3, 'memo', 99)
-# mycursor.execute(sessionSQL, valSQL)
-# mydb.commit()
-
+# Delete all rows from captured_data and session
+sql1 = "SET SQL_SAFE_UPDATES = 0;"
+sql2 = "delete from captured_data;"
+sql3 = "delete from session;"
+mycursor.execute(sql1)
+mycursor.execute(sql2)
+mycursor.execute(sql3)
 
 authenticationHeaders = {
     'Accept': 'application/json, text/plain, */*',
@@ -67,7 +63,7 @@ with open('pitchers.json', 'w') as output:
     json.dump(pitchersRespone.json()['data'], output)
 
 pitchersJSON = pitchersRespone.json()['data']
-print(pitchersJSON)
+# print(pitchersJSON)
 
 # loop
 playerIDs = []
@@ -75,6 +71,9 @@ for pitcher in pitchersJSON:
     playerIDs.append(str(pitcher['_id']))
 
 startTime = time.time()
+
+
+curTime = int(round(time.time() * 1000))
 
 for id in playerIDs:
 
@@ -94,7 +93,7 @@ for id in playerIDs:
 
     
     # beginDate will always be today
-    sessionPostData = '{"beginDate":0,"endDate":9999999999999,"player_id":' + \
+    sessionPostData = '{"beginDate":0,"endDate":' + str(curTime) +',"player_id":' + \
         id + ',"player_type":"1"}'
 
     sessionDataResponse = requests.post(
@@ -110,24 +109,6 @@ elapsedTime = int(endTime - startTime)
 
 # took 66 seconds to execute and make all JSON
 print("Time to make sessions JSONs: " + str(elapsedTime) + " seconds")
-
-
-# create pitcherCSV
-with open('pitchers.json') as f:
-    pitcherData = json.load(f)
-
-# get the keys for the header from the pitchers.json
-keys = pitcherData[0].keys()
-print(keys)
-keys = list(keys)
-keys.append('hitter_status')
-
-# write the csv file using the pitcher data
-with open('pitchers.csv', 'w') as output_file:
-    dict_writer = csv.DictWriter(output_file, keys)
-    dict_writer.writeheader()
-    dict_writer.writerows(pitcherData)
-
 
 # create array of the dictionaries to hold each jsons dictionary
 sessionDicts = []
@@ -166,31 +147,26 @@ for id in playerIDs:
                 else:
                     playerSessionFull[i]['sessionID'] = sessionID
 
+                if playerSessionFull[i]['gyroDegree'] == '-':
+                    playerSessionFull[i]['gyroDegree'] = 0
+                if playerSessionFull[i]['releaseExtension'] == '-':
+                    playerSessionFull[i]['releaseExtension'] = 0
+                if playerSessionFull[i]['horizontalAngle'] == '-':
+                    playerSessionFull[i]['horizontalAngle'] = 0
+            
                 playerSession.append(playerSessionFull[i])
-
+                # print(playerSessionFull[i])
                 count = count + 1
-
+                sessionSQL = "INSERT INTO captured_data (session_pitch_id, releaseHeight, horizontalBreak, spinClockTiltHour, date, szx, szy, selected, verticalBreak, _hour, videoPointerID, speed, no, Pitch_Type_pitchType, _minute, spinConfidence, spinEfficiency, releaseSide, trueSpin, _month, _milisecond, strike, _day, _year, pitch_id, spin, launchAngle, _second, spinAxis, releaseExtension, rifleSpin, gyroDegree, mode, Pitcher_pitcher_id, spinClockTiltMinute, horizontalAngle, memo, sessionID) VALUES (%s, %s, %s, %s,%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
+                valSQL = (playerSessionFull[i]['session_pitch_id'], playerSessionFull[i]['releaseHeight'], playerSessionFull[i]['horizontalBreak'], playerSessionFull[i]['spinClockTiltHour'], playerSessionFull[i]['date'], playerSessionFull[i]['szx'], playerSessionFull[i]['szy'], playerSessionFull[i]['selected'],playerSessionFull[i]['verticalBreak'], playerSessionFull[i]['_hour'], playerSessionFull[i]['videoPointerID'], playerSessionFull[i]['speed'], playerSessionFull[i]['no'], playerSessionFull[i]['pitchType'], playerSessionFull[i]['_minute'], playerSessionFull[i]['spinConfidence'], playerSessionFull[i]['spinEfficiency'], playerSessionFull[i]['releaseSide'], playerSessionFull[i]['trueSpin'], playerSessionFull[i]['_month'], playerSessionFull[i]['_milisecond'], playerSessionFull[i]['strike'], playerSessionFull[i]['_day'], playerSessionFull[i]['_year'], playerSessionFull[i]['pitch_id'], playerSessionFull[i]['spin'], playerSessionFull[i]['launchAngle'], playerSessionFull[i]['_second'], playerSessionFull[i]['spinAxis'],playerSessionFull[i]['releaseExtension'], playerSessionFull[i]['rifleSpin'], playerSessionFull[i]['gyroDegree'], playerSessionFull[i]['mode'], playerSessionFull[i]['_id'], playerSessionFull[i]['spinClockTiltMinute'], playerSessionFull[i]['horizontalAngle'], 'memo', playerSessionFull[i]['sessionID'])
+                mycursor.execute(sessionSQL, valSQL)
+                mydb.commit()
+        # print(sessionDict[0])
         sessionDicts.append(playerSession)
         sessionTableDicts.append(sessionDict)
 
-
-# get keys for the sessions
-keys = sessionDicts[0][0].keys()
-keys = list(keys)
-keys.append('memo')
-# keys.append('session_pitch_id')
-
-# write the csv for ALL sessions
-with open('sessions.csv', 'w') as output_file:
-    dict_writer = csv.DictWriter(output_file, keys)
-    dict_writer.writeheader()
-    for session in sessionDicts:
-        dict_writer.writerows(session)
-
-
-keys = sessionTableDicts[0][0].keys()
-with open('sessionTable.csv', 'w') as output_file:
-    dict_writer = csv.DictWriter(output_file, keys)
-    dict_writer.writeheader()
-    for session in sessionTableDicts:
-        dict_writer.writerows(session)
+        for session in sessionDict:
+            sessionTableSQL = "INSERT INTO session (idSession, date, Pitcher__id) VALUES (%s, %s, %s)"
+            valTableSQL = (session['idSession'], session['date'], session['Pitcher__id'])
+            mycursor.execute(sessionTableSQL, valTableSQL)
+            mydb.commit()
