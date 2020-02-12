@@ -11,7 +11,7 @@ mydb = mysql.connector.connect(
     host="localhost",
     port="3306",
     user="root",
-    passwd="Monmouth2020",
+    passwd="Danjoe2020!",
     database="mubb"
 )
 
