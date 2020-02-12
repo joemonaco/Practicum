@@ -132,18 +132,15 @@ for id in playerIDs:
 
             # check that its valid id
             if len(playerSessionFull[i]['_id'].split('@')[0]) > 5:
-                playerSessionFull[i]['_id'] = playerSessionFull[i]['_id'].split('@')[
-                    0]
+                playerSessionFull[i]['_id'] = playerSessionFull[i]['_id'].split('@')[0]
                 playerSessionFull[i]['session_pitch_id'] = count
-                playerSessionFull[i]['date'] = datetime.strptime(
-                    playerSessionFull[i]['date'], '%d %b %y')
+                playerSessionFull[i]['date'] = datetime.strptime(playerSessionFull[i]['date'], '%d %b %y')
 
                 if curDate != playerSessionFull[i]['date']:
                     sessionID = sessionID + 1
                     playerSessionFull[i]['sessionID'] = sessionID
                     curDate = playerSessionFull[i]['date']
-                    sessionDict.append({'idSession': sessionID,
-                                        'date': playerSessionFull[i]['date'], 'Pitcher__id': playerSessionFull[i]['_id']})
+                    sessionDict.append({'idSession': sessionID,'date': playerSessionFull[i]['date'], 'Pitcher__id': playerSessionFull[i]['_id']})
                 else:
                     playerSessionFull[i]['sessionID'] = sessionID
 
@@ -157,7 +154,7 @@ for id in playerIDs:
                 playerSession.append(playerSessionFull[i])
                 # print(playerSessionFull[i])
                 count = count + 1
-                 sessionSQL = "INSERT INTO captured_data (session_pitch_id, releaseHeight, horizontalBreak, spinClockTiltHour, date, szx, szy, selected, verticalBreak, _hour, videoPointerID, speed, no, Pitch_Type_pitchType, _minute, spinConfidence, spinEfficiency, releaseSide, trueSpin, _month, _milisecond, strike, _day, _year, pitch_id, spin, launchAngle, _second, spinAxis, releaseExtension, rifleSpin, gyroDegree, mode, Pitcher_pitcher_id, spinClockTiltMinute, horizontalAngle, memo, sessionID) VALUES (%s, %s, %s, %s,%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
+                sessionSQL = "INSERT INTO captured_data (session_pitch_id, releaseHeight, horizontalBreak, spinClockTiltHour, date, szx, szy, selected, verticalBreak, _hour, videoPointerID, speed, no, Pitch_Type_pitchType, _minute, spinConfidence, spinEfficiency, releaseSide, trueSpin, _month, _milisecond, strike, _day, _year, pitch_id, spin, launchAngle, _second, spinAxis, releaseExtension, rifleSpin, gyroDegree, mode, Pitcher_pitcher_id, spinClockTiltMinute, horizontalAngle, memo, sessionID) VALUES (%s, %s, %s, %s,%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
                 valSQL = (playerSessionFull[i]['session_pitch_id'], playerSessionFull[i]['releaseHeight'], playerSessionFull[i]['horizontalBreak'], playerSessionFull[i]['spinClockTiltHour'], playerSessionFull[i]['date'], playerSessionFull[i]['szx'], playerSessionFull[i]['szy'], playerSessionFull[i]['selected'],playerSessionFull[i]['verticalBreak'], playerSessionFull[i]['_hour'], playerSessionFull[i]['videoPointerID'], playerSessionFull[i]['speed'], playerSessionFull[i]['no'], playerSessionFull[i]['pitchType'], playerSessionFull[i]['_minute'], playerSessionFull[i]['spinConfidence'], playerSessionFull[i]['spinEfficiency'], playerSessionFull[i]['releaseSide'], playerSessionFull[i]['trueSpin'], playerSessionFull[i]['_month'], playerSessionFull[i]['_milisecond'], playerSessionFull[i]['strike'], playerSessionFull[i]['_day'], playerSessionFull[i]['_year'], playerSessionFull[i]['pitch_id'], playerSessionFull[i]['spin'], playerSessionFull[i]['launchAngle'], playerSessionFull[i]['_second'], playerSessionFull[i]['spinAxis'],playerSessionFull[i]['releaseExtension'], playerSessionFull[i]['rifleSpin'], playerSessionFull[i]['gyroDegree'], playerSessionFull[i]['mode'], playerSessionFull[i]['_id'], playerSessionFull[i]['spinClockTiltMinute'], playerSessionFull[i]['horizontalAngle'], 'memo', playerSessionFull[i]['sessionID'])
                 mycursor.execute(sessionSQL, valSQL)
                 mydb.commit()
