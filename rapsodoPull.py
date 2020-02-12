@@ -18,9 +18,11 @@ mydb = mysql.connector.connect(
 mycursor = mydb.cursor()
 
 # Delete all rows from captured_data and session
+sql0 = "SET FOREIGN_KEY_CHECKS = 0;"
 sql1 = "SET SQL_SAFE_UPDATES = 0;"
 sql2 = "delete from captured_data;"
 sql3 = "delete from session;"
+mycursor.execute(sql0)
 mycursor.execute(sql1)
 mycursor.execute(sql2)
 mycursor.execute(sql3)
